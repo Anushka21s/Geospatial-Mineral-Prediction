@@ -14,12 +14,12 @@ Identifying mineral-rich zones traditionally requires extensive manual field sur
 
 ## 🎯 Key Features
 
-- 🔮 **Predict a Location** — Enter latitude, longitude, and deposit type to get mineral probability scores for all 6 mineral classes
-- 🗺️ **Interactive Map** — Folium-powered map of 2,000 survey sites across India, colour-coded by mineral type with clickable popups
-- 📊 **Dataset Explorer** — Browse raw data, geochemical boxplots, spatial scatter plots, and correlation heatmaps
-- 🤖 **Model Evaluation** — Confusion matrix, per-class precision/recall/F1, and RF vs XGBoost comparison
-- 📈 **Feature Importance** — Visual breakdown of which geochemical and geospatial features drive predictions
-- 📍 **State-wise Analysis** — State × mineral heatmap and dominant mineral distribution across 15 Indian states
+-  **Predict a Location** — Enter latitude, longitude, and deposit type to get mineral probability scores for all 6 mineral classes
+-  **Interactive Map** — Folium-powered map of 2,000 survey sites across India, colour-coded by mineral type with clickable popups
+-  **Dataset Explorer** — Browse raw data, geochemical boxplots, spatial scatter plots, and correlation heatmaps
+-  **Model Evaluation** — Confusion matrix, per-class precision/recall/F1, and RF vs XGBoost comparison
+-  **Feature Importance** — Visual breakdown of which geochemical and geospatial features drive predictions
+-  **State-wise Analysis** — State × mineral heatmap and dominant mineral distribution across 15 Indian states
 
 ---
 
@@ -137,15 +137,3 @@ Each mineral has a distinct geochemical fingerprint in the real world:
 - **Bauxite** sites have Al% > 28 on laterite plateaus
 
 The Random Forest learns these patterns across all 47 features and applies them to predict the most probable mineral at any new location — effectively acting as a **decision-support system** for geological prospecting.
-
----
-
-## 👤 Author
-
-**Satis** — Connect on [LinkedIn](#) | [GitHub](#)
-
----
-
-## 📄 License
-
-This project is open source and available under the [MIT License](LICENSE).
